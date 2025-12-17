@@ -1,0 +1,54 @@
+# 配置文件（可能包含API密钥、认证信息等隐私数据）
+.env
+
+# IDE配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 截图文件夹（可能包含用户私人截图）
+pictures/
+*.jpeg
+*.jpg
+*.png
+*.gif
+
+# 日志文件
+*.log
+logs/
+
+# 虚拟环境
+venv/
+env/
+*.venv/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# 安装包
+*.egg
+*.egg-info/
+.dist-info/
+
+# 构建输出
+build/
+dist/
+
+# 测试报告
+coverage/
+.pytest_cache/
+.tox/
